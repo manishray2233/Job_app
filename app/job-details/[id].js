@@ -1,5 +1,13 @@
-import React from "react";
-import { View, Text, TouchableOpacity, Image } from 'react-native'
+import {
+  Text,
+  View,
+  SafeAreaView,
+  ScrollView,
+  ActivityIndicator,
+  RefreshControl,
+} from "react-native";
+import { useCallback, useState } from "react";
+import { Stack, useRouter, useSearchParams } from "expo-router";
 
 const JobDetails = () => {
   return <Text>JobDetails</Text>;
